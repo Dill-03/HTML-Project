@@ -1,0 +1,32 @@
+ h1 {
+            font-size: 30px;
+            color: white;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .label {
+            font-size: 19px;
+            margin-top: 20px;
+            font-weight: normal;
+            margin-left: 80px;
+
+        }
+
+        .form-control {
+            margin-left: 80px;
+        }
+
+        .btn-warning {
+            margin-top: 30px;
+            margin-left: 235px;
+            width: 180px;
+            font-size: 19px;
+            border-radius: 1000px;
+        }
+
+        .col-md-6 {
+            background: rgba(0, 0, 0, 0.4);
+            height: 800px;
+            box-shadow: -1px 1px 60px 10px black inset;
+        }

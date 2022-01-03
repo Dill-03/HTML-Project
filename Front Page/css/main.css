@@ -1,0 +1,246 @@
+*
+{
+    margin: 0;
+    padding: 0;
+  
+}
+
+/* navigation */
+#nav-ber
+{
+    position: sticky;
+    top: 0;z-index: 10; 
+}
+.navbar-brand
+{
+   font-weight: bold;
+    border: 1px solid #ffa502;
+    border-radius: 50%;  
+}
+
+.navbar-nav li
+{
+  padding: 0 10px;   
+}
+.navbar-nav li a
+{
+ float:right;
+ text-align: left;   
+}
+#nav-ber ul li a:hover
+{
+color: #ffa502!important;
+}
+.navbar
+{
+    background: #ffffff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #fdfdfd!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*-------------------Image text----------------------------*/
+#image{
+    position: relative;
+    width: 100%;
+}
+.image__img{
+    display: block;
+    width: 100%;
+}
+.image__hoverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: oppacity 0.25s;
+}
+.image__hoverlay>*{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+
+}
+.image__hoverlay:hover{
+    opacity: 1;
+}
+.image__hoverlay:hover>*{
+    transform: translateY(0);
+}
+
+.image__title{
+    font-family:'Ephesis', cursive;
+    font-size: 2em;
+    font-weight: bold;
+}
+.image__description{
+    font-family: 'Ephesis', cursive;
+    font-size: 1.25em;
+    margin-top: 01.25em;
+    display: block;
+}
+
+
+/* ----------- WellCome-------------- */
+#about
+{
+    padding: 50px;
+    padding-bottom: 50px;
+    color:#4b6584;
+      
+}
+#about h2::after
+{
+    content: '';
+    background: #ffa502;
+    display: block;
+    height: 3px;
+    width: 250px;
+}
+#about h2.mission::after
+{
+    content: '';
+    background: #ffa502;
+    display: block;
+    height: 3px;
+    width: 130px;
+}
+#about h2.vision::after
+{
+    content: '';
+    background: #ffa502;
+    display: block;
+    height: 3px;
+    width: 105px;
+}
+
+
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+   text-align: justify;
+}
+/* ----------------skill---------- */
+#skill
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.8 ),rgba(0, 0, 0, 0.8));
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#skill h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+
+}
+#skill h1::after
+{
+   content: '';
+   background: #ffa502;
+   display: block;
+   height: 3px;
+   width: 170px;
+   margin: 20px auto 5px;
+
+}
+.skill
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #ffa502;
+    border-radius: 50%;
+}
+#skill p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color : #ccc;
+}
+.skill .col-md-3:hover
+{
+    background: #4596ec;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+/* ----Team------- */
+#team
+{
+    padding: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+h1
+{
+    text-align: center;
+    color: #555;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #ffa502;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+
+}
+.profile-pic
+{
+    margin-top: 25px;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img
+{
+    filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2
+{
+font-size: 22px;
+font-weight: bold;
+margin-top: 15px;
+color: #0a3d62 !important;
+
+}
